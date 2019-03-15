@@ -29,7 +29,7 @@
 }
 
 .hero-wrapper{
-  padding: 10% 20%;
+  padding: 13% 20%;
 }
 
 .header-wrapper {
@@ -64,6 +64,25 @@
   color: #9e9ca1;
   font-size: 35px;
   padding: 8px;
+}
+
+.project-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.project {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.project-gyft {
+  margin: 15px 5px;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
