@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Hero from './screens/Hero';
 import Header from './screens/Header';
-import Projects from './screens/Projects';
+import Footer from './screens/Footer';
+import ProjectContainer from "./screens/ProjectContainer";
 
 class App extends Component {
   render() {
@@ -10,7 +11,10 @@ class App extends Component {
       <div className="App">
         <Header/>
         <Hero/>
-        <Projects/>
+          <div>
+              <ProjectContainer/>
+          </div>
+          <Footer/>
       </div>
     );
   }
