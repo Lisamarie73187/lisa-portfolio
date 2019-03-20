@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a10e79-f00f-424c-9b05-76212812df1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/LightboxProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/LightboxProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Projects/Goalsy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Projects/Goalsy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Projects/Rex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Projects/Rex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Projects/Scentric.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Projects/Scentric.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Projects/TicTacToe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Projects/TicTacToe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Projects/Gyft.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Projects/Gyft.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,11 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/Projects/Rex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="400">
+              <caret line="55" column="10" lean-forward="true" selection-end-line="60" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/Projects/Gyft.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -119,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/screens/Lightbox.js" />
         <option value="$PROJECT_DIR$/src/screens/Projects.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/screens/Projects/Gyft.js" />
         <option value="$PROJECT_DIR$/src/screens/ProjectContainer.js" />
         <option value="$PROJECT_DIR$/src/screens/LightboxProject.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
@@ -127,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/screens/Projects/TicTacToe.js" />
         <option value="$PROJECT_DIR$/src/screens/Projects/Goalsy.js" />
         <option value="$PROJECT_DIR$/src/screens/Projects/Rex.js" />
+        <option value="$PROJECT_DIR$/src/screens/Projects/Gyft.js" />
       </list>
     </option>
   </component>
@@ -210,12 +217,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552673030877</updated>
-      <workItem from="1552673032391" duration="13182000" />
+      <workItem from="1552673032391" duration="13460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13182000" />
+    <option name="totallyTimeSpent" value="13460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1649" height="947" extended-state="0" />
@@ -289,16 +296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Projects/Gyft.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="28" column="131" selection-start-line="28" selection-start-column="131" selection-end-line="28" selection-end-column="131" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/LightboxProject.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -368,8 +365,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Projects/Rex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="400">
+          <caret line="55" column="10" lean-forward="true" selection-end-line="60" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Projects/Gyft.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
