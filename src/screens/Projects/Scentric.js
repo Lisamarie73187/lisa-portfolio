@@ -13,20 +13,20 @@ class Scentric extends Component {
         this.setState({
             open: !this.state.open
         })
-    }
+    };
 
     close = () => {
         this.setState({
             open: !this.state.open
         })
-    }
+    };
 
     render() {
         return (
             <div>
                 <LightboxProject open={this.state.open} close={this.close}/>
                 <div className="project">
-                    <img src="https://s3-us-west-1.amazonaws.com/portfoliolisa/scentric/webscentric.png" className="project" width='100%' onClick={this.openLightBox}/>
+                    <img src="https://s3-us-west-1.amazonaws.com/portfoliolisa/scentric/webscentric.png" width='100%' onClick={this.openLightBox}/>
                 </div>
             </div>
         );

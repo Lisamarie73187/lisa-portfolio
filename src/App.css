@@ -68,7 +68,9 @@
 
 .project {
   margin: 5px;
+  cursor: pointer;
 }
+
 
 .footer-wrapper {
   width: 100%;
