@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import LightboxProject from "../LightboxProject";
+import Carousel from 'nuka-carousel';
+
+
+
 
 const images = [
     'https://s3-us-west-1.amazonaws.com/portfoliolisa/goalsy/goalsyMainSliderPage.png',
@@ -14,7 +18,8 @@ class Goalsy extends Component {
         super(props);
         this.state = {
             open: false,
-            hover: false
+            hover: false,
+            openModal: false
         }
     }
 
@@ -42,18 +47,31 @@ class Goalsy extends Component {
         })
     };
 
+    openLastSlide = () => {
+        this.close()
+        this.setState({
+            openModal: true
+        })
+    }
+
     render() {
         return (
             <div>
-                <LightboxProject open={this.state.open} close={this.close} images={images}/>
-                <div className="project" onClick={this.openLightBox}>
+
+                <LightboxProject open={this.state.open} close={this.close} images={images} openLastSlide={this.openLastSlide}/>
+                <div className="project">
                     {!this.state.hover ? (
                         <img src="https://s3-us-west-1.amazonaws.com/portfoliolisa/goalsy/GoalsyThumbNail.png" width='100%' onMouseOver={this.hover} onMouseOut={this.hoverOut}/>
                     ) : (
-                        <img src="https://s3-us-west-1.amazonaws.com/portfoliolisa/goalsy/GoalsyThumbNailHoverOverlay.png" width='100%' onMouseOver={this.hover} onMouseOut={this.hoverOut}/>
+                        <div  onMouseOver={this.hover} onMouseOut={this.hoverOut} onClick={this.openLightBox} >
+                            <img src="https://s3-us-west-1.amazonaws.com/portfoliolisa/goalsy/GoalsyThumbNailHoverOverlay.png" width='100%' />
+                        </div>
                     )
                     }
                 </div>
+                {this.state.openModal &&
+                <div>Sample</div>
+                }
             </div>
         );
     }

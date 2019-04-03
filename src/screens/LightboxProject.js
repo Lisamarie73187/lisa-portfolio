@@ -12,6 +12,17 @@ export default class LightboxProject extends Component {
         };
     }
 
+    onNext = () => {
+        if(this.props.images.length - 1 === this.state.photoIndex){
+            this.props.openLastSlide()
+        }
+        console.log(this.props.images.length)
+        console.log(this.state.photoIndex)
+        this.setState({
+            photoIndex: (this.state.photoIndex + 1) % this.props.images.length,
+        })
+    }
+
     render() {
         const { photoIndex} = this.state;
         const { images } = this.props;
@@ -31,11 +42,7 @@ export default class LightboxProject extends Component {
                                 photoIndex: (photoIndex + images.length - 1) % images.length,
                             })
                         }
-                        onMoveNextRequest={() =>
-                            this.setState({
-                                photoIndex: (photoIndex + 1) % images.length,
-                            })
-                        }
+                        onMoveNextRequest={this.onNext}
                     />
                 )}
             </div>

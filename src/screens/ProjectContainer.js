@@ -13,6 +13,7 @@ class ProjectContainer extends Component {
     render() {
         return (
             <div className="project-wrapper">
+
                 <div className="first-row-projects">
                     <Goalsy/>
                     <Rex/>
